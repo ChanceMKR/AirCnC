@@ -21,7 +21,7 @@
                                 <rect key="frame" x="3" y="34" width="414" height="200"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihO-sX-hLx">
-                                        <rect key="frame" x="0.0" y="85" width="38" height="30"/>
+                                        <rect key="frame" x="0.0" y="85" width="37.5" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="fIm-GH-4wc"/>
                                         </constraints>
@@ -32,13 +32,13 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QA9-gl-Qb7">
-                                        <rect key="frame" x="49" y="0.0" width="317" height="200"/>
+                                        <rect key="frame" x="48.5" y="0.0" width="317" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="QXG-sZ-SwD"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbL-18-WYj">
-                                        <rect key="frame" x="377" y="85" width="37" height="30"/>
+                                        <rect key="frame" x="376.5" y="85" width="37.5" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="n8Z-K5-AN4"/>
                                         </constraints>
@@ -49,6 +49,9 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="QA9-gl-Qb7" firstAttribute="centerX" secondItem="Qrp-lG-vAt" secondAttribute="centerX" id="MuX-Z6-jhv"/>
+                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Oaq-Yb-cLz">
                                 <rect key="frame" x="10" y="264" width="384" height="240"/>
